@@ -1,10 +1,13 @@
-# Title (replace with your title)
+# Regular Expressions (RegEx) Tutorial
 
-Introductory paragraph (replace this with your text)
+For this tutorial, I will be explaining what a Regular Expression (RegEx for short) is all about, and how it is used. 
 
 ## Summary
 
 Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+
+Matching email:
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 ## Table of Contents
 
@@ -46,4 +49,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This tutorial has been created by Hiro Kagei.
+
+Contact Me:
+### [GitHub](https://github.com/hkagei)
+### [Email](k_dawg_1022@hotmail.com)
