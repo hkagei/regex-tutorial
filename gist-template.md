@@ -1,6 +1,6 @@
 # Regular Expressions (RegEx) Tutorial
 
-For this tutorial, I will be explaining what a Regular Expression (RegEx for short) is all about, and how it is used to verify a search term. A regular expression (or RegEx) is a series of characters which define a specific search pattern. 
+For this tutorial, I will be explaining what a Regular Expression (RegEx for short) is all about, and how it is used to verify a search term. A regular expression (or RegEx) is a series of characters which define a specific search pattern. One of the things RegEx is used to look for is certain patterns of characters within a string, which can be very useful when it comes to validating emails using applications such as Node.js or MongoDB.
 
 ## Summary
 
@@ -30,24 +30,34 @@ Matching email:
 Code snippet example: `/^`([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})`$/`
 ### Quantifiers
 
+Code snippet example: /^([a-z0-9_\.-]`+`)@([\da-z\.-]`+`)\.([a-z\.]`{2,6}`)$/
 ### OR Operator
 
+Code snippet example:
 ### Character Classes
 
+Code snippet example: 
 ### Flags
 
+Code snippet example: 
 ### Grouping and Capturing
 
+Code snippet example: 
 ### Bracket Expressions
 
+Code snippet example: 
 ### Greedy and Lazy Match
 
+Code snippet example: 
 ### Boundaries
 
+Code snippet example: 
 ### Back-references
 
+Code snippet example: 
 ### Look-ahead and Look-behind
 
+Code snippet example: 
 ## Author
 
 This tutorial has been created by Hiro Kagei.
