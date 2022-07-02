@@ -1,10 +1,10 @@
 # Regular Expressions (RegEx) Tutorial
 
-For this tutorial, I will be explaining what a Regular Expression (RegEx for short) is all about, and how it is used. 
+For this tutorial, I will be explaining what a Regular Expression (RegEx for short) is all about, and how it is used to verify a search term. A regular expression (or RegEx) is a series of characters which define a specific search pattern. 
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+I will be covering and breaking down what forms a Regex component that is used to match email values. 
 
 Matching email:
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
@@ -27,6 +27,7 @@ Matching email:
 
 ### Anchors
 
+Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ### Quantifiers
 
 ### OR Operator
