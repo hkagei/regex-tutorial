@@ -33,31 +33,31 @@ Code snippet example: `/^`([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})`$/`
 Code snippet example: /^([a-z0-9_\.-]`+`)@([\da-z\.-]`+`)\.([a-z\.]`{2,6}`)$/
 ### OR Operator
 
-Code snippet example:
+Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ### Character Classes
 
-Code snippet example: 
+Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ### Flags
 
-Code snippet example: 
+Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ### Grouping and Capturing
 
-Code snippet example: 
+Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ### Bracket Expressions
 
-Code snippet example: 
+Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ### Greedy and Lazy Match
 
-Code snippet example: 
+Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ### Boundaries
 
-Code snippet example: 
+Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ### Back-references
 
-Code snippet example: 
+Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ### Look-ahead and Look-behind
 
-Code snippet example: 
+Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ## Author
 
 This tutorial has been created by Hiro Kagei.
