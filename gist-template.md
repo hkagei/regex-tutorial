@@ -1,10 +1,10 @@
 # Regular Expressions (RegEx) Tutorial
 
-For this tutorial, I will be explaining what a Regular Expression (RegEx for short) is all about, and how it is used to verify a search term. A regular expression (or RegEx) is a series of characters which define a specific search pattern. One of the things RegEx is used to look for is certain patterns of characters within a string, which can be very useful when it comes to validating emails using applications such as Node.js or MongoDB.
+For web developers, it is very important to be able to validate user inputs in various types of forms. One of those validation methods is the use of what is known as regular expressions (RegEx for short). For this tutorial, I will be explaining what a Regular Expression (RegEx) is all about, and how it is used to verify a search term. A regular expression (or RegEx) is a series of characters which define a specific search pattern. One of the things RegEx is used to look for is certain patterns of characters within a string, which can be very useful when it comes to validating emails using applications such as Node.js or MongoDB.
 
 ## Summary
 
-I will be covering and breaking down what forms a Regex component that is used to match email values. 
+In this tutorial, I will be covering and breaking down what constitutes a Regex component that is used to match email values.
 
 Matching email:
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
