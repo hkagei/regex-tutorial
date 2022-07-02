@@ -27,7 +27,7 @@ Matching email:
 
 ### Anchors
 
-Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+Code snippet example: `/^`([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})`$/`
 ### Quantifiers
 
 ### OR Operator
