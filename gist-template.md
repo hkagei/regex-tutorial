@@ -26,6 +26,8 @@ Matching email:
 ## Regex Components
 
 ### Anchors
+The first component I will be going over are anchors. They are located at the beginning at the end of the string, as shown in the snippet example below. While the /^ anchor signifies the beginning of a string or expression with the characters that follow it, the $/ anchor represents the end of it with the preceding characters. 
+
 
 Code snippet example: `/^`([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})`$/`
 ### Quantifiers
