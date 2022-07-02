@@ -31,6 +31,7 @@ The first component I will be going over are anchors. They are located at the be
 
 Code snippet example: `/^`([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})`$/`
 ### Quantifiers
+The next component I would like to touch upon will be quantifiers. They set the limits of the string that matches the RegEx, and frequently include the minimum and maximum number of characters the regex is looking for.
 
 Code snippet example: /^([a-z0-9_\.-]`+`)@([\da-z\.-]`+`)\.([a-z\.]`{2,6}`)$/
 ### OR Operator
