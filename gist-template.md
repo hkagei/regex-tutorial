@@ -34,9 +34,9 @@ Bracket expressions for validating email addresses.
 
 Code snippet example: /^(`[a-z0-9_\.-]`+)@(`[\da-z\.-]`+)\.(`[a-z\.]`{2,6})$/
 ### Character Classes
-Character classes define a set of characters by matching a character from a specific set. An example of a character class listed earlier in the tutorial is the bracket expression Depicted in the code snippet example below as "\d", it would match a single non-digit character
+Character classes define a set of characters by matching a character from a specific set. An example of a character class listed earlier in the tutorial is the bracket expression that includes positive and negative groups. Another example is depicted in the code snippet example below as "\d", which would match a single digit character between 0 and 9.
 
-Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+Code snippet example: /^([a-z0-9_\.-]+)@([`\d`a-z\.-]+)\.([a-z\.]{2,6})$/
 ### Grouping and Capturing
 
 
