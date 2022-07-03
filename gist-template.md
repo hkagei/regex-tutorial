@@ -17,8 +17,6 @@ Matching email:
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
 
 ## Regex Components
 
@@ -47,9 +45,6 @@ Code snippet example: /^(`[a-z0-9_\.-]`+)@(`[\da-z\.-]`+)\.(`[a-z\.]`{2,6})$/
 In this section, I will explain greedy and lazy matches. Indicated by the "+" quantifier, a greedy pattern is always looking for the longest possible string, and will always attempt to repeat a sub pattern many times as possible before backtracking to explore shorter matches. On the other hand, a lazy pattern is looking for the shortest possible string while attempting to repeat a subpattern as few times as possible. While absent from the code snippet example below, a quantifier can be made lazy by appending the "?" symbol to an existing quantifier.
 
 Code snippet example: /^([a-z0-9_\.-]`+`)@([\da-z\.-]`+`)\.([a-z\.]{2,6})$/
-### Back-references
-
-Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ## Author
 
 This tutorial has been created by Hiro Kagei.
