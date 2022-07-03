@@ -30,7 +30,7 @@ The next component I would like to touch upon will be quantifiers. They set the 
 
 Code snippet example: /^([a-z0-9_\.-]`+`)@([\da-z\.-]`+`)\.([a-z\.]`{2,6}`)$/
 ### Bracket Expressions
-Bracket expressions for validating email addresses. 
+Bracket expressions for validating email addresses are patterns inside a set of square brackets which represent a range of characters we would like to match. Bracket expressions are also known as positive character groups because they outline the characters we would like to include in the RegEx. In the example listed below, the character sets of [a-z0-9_\.-] matches any letter from "a" through "z" and is case sensitive, and matches the characters 0 through 9 plus the characters "_" , "-" , and ".".
 
 Code snippet example: /^(`[a-z0-9_\.-]`+)@(`[\da-z\.-]`+)\.(`[a-z\.]`{2,6})$/
 ### Character Classes
