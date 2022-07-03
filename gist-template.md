@@ -13,9 +13,7 @@ Matching email:
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
@@ -34,22 +32,18 @@ Code snippet example: `/^`([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})`$/`
 The next component I would like to touch upon will be quantifiers. They set the limits of the string that matches the RegEx, and frequently include the minimum and maximum number of characters the regex is looking for. Because quantifiers are greedy, they will match as many characters as possible. Quantifiers are represented by the symbols, "* + ? {}". In the example below, the "+" denotes the value in the parentheses matches the pattern one or more times. While not listed in the example below, the " * " symbol matches the pattern zero or more times, and the "?" symbol matches the pattern zero or one time. The example below includes curly brackets "{}", which can provide three different ways to set limits for a match: in the example below, { 2, 6 } means that the string matches the pattern for a minimum of 2 times to a maximum of 6 times.
 
 Code snippet example: /^([a-z0-9_\.-]`+`)@([\da-z\.-]`+`)\.([a-z\.]`{2,6}`)$/
-### OR Operator
-Next, I will be talking about the OR operator.
-
-Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ### Character Classes
-
-Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
-### Flags
+Character classes define a set of characters.
 
 Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ### Grouping and Capturing
 
-Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
-### Bracket Expressions
 
 Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+### Bracket Expressions
+Bracket expressions for validating email addresses 
+
+Code snippet example: /^(`[a-z0-9_\.-]`+)@(`[\da-z\.-]`+)\.(`[a-z\.]`{2,6})$/
 ### Greedy and Lazy Match
 
 Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
