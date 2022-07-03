@@ -38,9 +38,9 @@ Character classes define a set of characters by matching a character from a spec
 
 Code snippet example: /^([a-z0-9_\.-]+)@([`\d`a-z\.-]+)\.([a-z\.]{2,6})$/
 ### Grouping and Capturing
+Grouping is used to break sections up in order to check multiple parts of a string to determine that different sections fulfill different requirements. This is done by the use of parentheses, as shown in the example below. In addition to grouping, capturing groups is used to capture the matched character sequences for possible re-use. In the example below, ([a-z0-9_\.-]+) is used to capture the username, then ([\da-z\.-]+) is used to capture the domain name, and ([a-z\.]{2,6}) would be used to capture the top-level domain (TLD).
 
-
-Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+Code snippet example: /^`([a-z0-9_\.-]+)`@`([\da-z\.-]+)`\.`([a-z\.]{2,6})`$/
 
 ### Greedy and Lazy Match
 In this section, I will explain greedy and lazy matches. Indicated by the "+" quantifier, a greedy pattern is always looking for the longest possible string, and will always attempt to repeat a sub pattern many times as possible before backtracking to explore shorter matches. On the other hand, a lazy pattern is looking for the shortest possible string while attempting to repeat a subpattern as few times as possible. While absent from the code snippet example below, a quantifier can be made lazy by appending the "?" symbol to an existing quantifier.
