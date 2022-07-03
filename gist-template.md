@@ -31,10 +31,11 @@ The first component I will be going over are anchors. They are located at the be
 
 Code snippet example: `/^`([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})`$/`
 ### Quantifiers
-The next component I would like to touch upon will be quantifiers. They set the limits of the string that matches the RegEx, and frequently include the minimum and maximum number of characters the regex is looking for.
+The next component I would like to touch upon will be quantifiers. They set the limits of the string that matches the RegEx, and frequently include the minimum and maximum number of characters the regex is looking for. Because quantifiers are greedy, they will match as many characters as possible. Quantifiers are represented by the symbols, "* + ? {}". In the example below, the "+" denotes the value in the parentheses matches the pattern one or more times. While not listed in the example below, the " * " symbol matches the pattern zero or more times, and the "?" symbol matches the pattern zero or one time. The example below includes curly brackets "{}", which can provide three different ways to set limits for a match: in the example below, { 2, 6 } means that the string matches the pattern for a minimum of 2 times to a maximum of 6 times.
 
 Code snippet example: /^([a-z0-9_\.-]`+`)@([\da-z\.-]`+`)\.([a-z\.]`{2,6}`)$/
 ### OR Operator
+Next, I will be talking about the OR operator.
 
 Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ### Character Classes
