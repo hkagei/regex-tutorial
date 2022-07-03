@@ -19,7 +19,6 @@ Matching email:
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
 - [Boundaries](#boundaries)
 - [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
 
@@ -29,7 +28,7 @@ The first component I will be going over are anchors. They are located at the be
 
 Code snippet example: `/^`([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})`$/`
 ### Quantifiers
-The next component I would like to touch upon will be quantifiers. They set the limits of the string that matches the RegEx, and frequently include the minimum and maximum number of characters the regex is looking for. Because quantifiers are greedy, they will match as many characters as possible. Quantifiers are represented by the symbols, "* + ? {}". In the example below, the "+" denotes the value in the parentheses matches the pattern one or more times. While not listed in the example below, the " * " symbol matches the pattern zero or more times, and the "?" symbol matches the pattern zero or one time. The example below includes curly brackets "{}", which can provide three different ways to set limits for a match: in the example below, { 2, 6 } means that the string matches the pattern for a minimum of 2 times to a maximum of 6 times.
+The next component I would like to touch upon will be quantifiers. They set the limits of the string that matches the RegEx, and frequently include the minimum and maximum number of characters the regex is looking for. Because quantifiers are greedy, they will match as many characters as possible. Quantifiers are represented by the symbols, "* + {}". In the example below, the "+" denotes the value in the parentheses matches the pattern one or more times. While not listed in the example below, the " * " symbol matches the pattern zero or more times, and the "?" symbol matches the pattern zero or one time. The example below includes curly brackets "{}", which can provide three different ways to set limits for a match: in the example below, { 2, 6 } means that the string matches the pattern for a minimum of 2 times to a maximum of 6 times.
 
 Code snippet example: /^([a-z0-9_\.-]`+`)@([\da-z\.-]`+`)\.([a-z\.]`{2,6}`)$/
 ### Character Classes
@@ -45,15 +44,10 @@ Bracket expressions for validating email addresses
 
 Code snippet example: /^(`[a-z0-9_\.-]`+)@(`[\da-z\.-]`+)\.(`[a-z\.]`{2,6})$/
 ### Greedy and Lazy Match
+In this section, I will explain greedy and lazy matches. Indicated by the "+" quantifier, a greedy pattern is always looking for the longest possible string, and will always attempt to repeat a sub pattern many times as possible before backtracking to explore shorter matches. On the other hand, a lazy pattern is looking for the shortest possible string while attempting to repeat a subpattern as few times as possible. While absent from the code snippet example below, a quantifier can be made lazy by appending the "?" symbol to an existing quantifier.
 
-Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
-### Boundaries
-
-Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+Code snippet example: /^([a-z0-9_\.-]`+`)@([\da-z\.-]`+`)\.([a-z\.]{2,6})$/
 ### Back-references
-
-Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
-### Look-ahead and Look-behind
 
 Code snippet example: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ## Author
